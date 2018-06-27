@@ -1,0 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9235/eureka/
+server:
+  port: 9236
+spring:
+  application:
+    name: firstclient
